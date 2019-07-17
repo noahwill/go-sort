@@ -1,7 +1,5 @@
 package sorts
 
-type slice []int
-
 func (s slice) swap(x, y int) {
 	s[x], s[y] = s[y], s[x]
 }
